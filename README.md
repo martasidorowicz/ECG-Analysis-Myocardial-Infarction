@@ -38,7 +38,7 @@ normal and myocardial infarction beats.
 | Model 1 | 99.55% | 99.66% | 99.80% | 98.95% | 99.73% |
 | Model 2 | 99.85% | – | – | – | 99.91% |
 
-The notebook also includes confusion matrix for the first model and a conclusion.
+The notebook also includes a confusion matrix for the first model and a conclusion.
 
 ## Reproducibility
 
@@ -60,21 +60,27 @@ https://doi.org/10.13026/C28C71
 Pollard, T., Moody, B. E., Lehman, L., Gow, B., Fernandes, C., Xie, C.,
 Johnson, A., Mark, R. G., & Heldt, T. (2026).
 PhysioNet as a global platform for biomedical research.
-Nature Health.
+Nature Health, 1, 792–795.
 https://doi.org/10.1038/s44360-026-00096-z
 
-### Pan-Tompkins external implementation
+### External implementations
 
 Pan–Tompkins QRS Detection implementation:
 https://github.com/antimattercorrade/Pan_Tompkins_QRS_Detection
 
+Model 2 implementation:
+Lynda Starkus, Abnormal_ECG_Myocardial_infraction_cnn.
+https://github.com/Lynda-Starkus/Abnormal_ECG_Myocardial_infraction_cnn
+
 ### Model references
 
-Reference paper for Model 1:
-U. Rajendra Acharya, Hamido Fujita, Shu Lih Oh, Yuki Hagiwara, Jen Hong Tan, Muhammad Adam, "Application of deep convolutional neural network for automated detection of myocardial infarction using ECG signals", https://doi.org/10.1016/j.ins.2017.06.027.
+Acharya, U. R., Fujita, H., Oh, S. L., Hagiwara, Y., Tan, J. H., & Adam, M.
+(2017). Application of deep convolutional neural network for automated
+detection of myocardial infarction using ECG signals.
+Information Sciences, 415–416, 190–198.
+https://doi.org/10.1016/j.ins.2017.06.027
 
-Reference paper for Model 2:
-M. Kachuee, S. Fazeli and M. Sarrafzadeh, "ECG Heartbeat Classification: A Deep Transferable Representation," 2018 IEEE International Conference on Healthcare Informatics (ICHI), doi: 10.1109/ICHI.2018.00092.
-
-Model 2 implementation:
-Lynda Starkus, Abnormal_ECG_Myocardial_infraction_cnn, https://github.com/Lynda-Starkus/Abnormal_ECG_Myocardial_infraction_cnn
+Kachuee, M., Fazeli, S., & Sarrafzadeh, M. (2018).
+ECG Heartbeat Classification: A Deep Transferable Representation.
+2018 IEEE International Conference on Healthcare Informatics (ICHI), 443–444.
+https://doi.org/10.1109/ICHI.2018.00092
